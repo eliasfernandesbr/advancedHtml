@@ -29,10 +29,9 @@ body{
    padding: 10px;
    top: 100%;
    transform: translateY(-120%);
-   btn:hover;
+   
 }
 
 .btn:hover{
     cursor: pointer;
-    visibility: ;
 }

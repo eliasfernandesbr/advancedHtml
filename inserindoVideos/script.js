@@ -25,10 +25,10 @@ function stop() {
   // video.currentTime = 0;
 }
 
-function esconder() {
-  console.log("oi");
-  let controls = document.querySelector(".controle");
-  if(controls.style.visibility = "hidden"; ){
-    controls.style.visibility = "hidden"; 
-  }
-}
+// function esconder() {
+//   console.log("oi");
+//   let controls = document.querySelector(".controle");
+//   if(controls.style.visibility = "hidden"; ){
+//     controls.style.visibility = "hidden"; 
+//   }
+// }
