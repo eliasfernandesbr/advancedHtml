@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/inserindoVideos/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <video
+        id="video1"
+        class="video"
+        preload="metadata"
+        controls
+        src="/videos/cursogit.mp4"
+        poster="/imagens/controlxbox.png"
+      ></video>
+      <div class="controle" onmouseout="esconder()">
+        <img
+          class="btn"
+          onclick="retroceder()"
+          src="/inserindoVideos/imagens/back10.png"
+          alt=""
+        />
+        <img
+          class="btn"
+          onclick="avancar()"
+          src="/inserindoVideos/imagens/avancar10.png"
+          alt=""
+        />
+        <img
+          class="btn"
+          onclick="diminuir_vel()"
+          src="/inserindoVideos/imagens/diminuir.png"
+          alt=""
+        />
+        <img
+          class="btn"
+          onclick="aumentar_vel()"
+          src="/inserindoVideos/imagens/aumentar.png"
+          alt=""
+        />
+        <img
+          class="btn"
+          onclick="play()"
+          src="/inserindoVideos/imagens/play.png"
+          alt=""
+        />
+        <img
+          class="btn"
+          onclick="stop()"
+          src="/inserindoVideos/imagens/stop.png"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <script src="/inserindoVideos/script.js"></script>
+  </body>
+</html>
